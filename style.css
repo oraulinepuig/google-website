@@ -81,6 +81,10 @@ a:hover {
   border-radius: 40px;
 }
 
+#searchbar:hover {
+  box-shadow: 1px 2px 1px 1px #f2efeff2;
+}
+
 #search {
   display: flex;
   justify-content: center;
@@ -99,6 +103,7 @@ a:hover {
   border-width: 1px;
   border-color: #F7F7F7;
   border-radius: 5px;
+  box-shadow: 0px 2px #F7F7F7;
 }
 
 .search-buttons:hover {
@@ -160,7 +165,3 @@ a:hover {
 .howto a {
   color: #454545;
 }
-
-/*
-.ad .company .howto .report .infocustomer .privacy .conditions .params
-*/
