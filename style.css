@@ -83,9 +83,14 @@ a:visited {
   border-radius: 5px;
 }
 
-.search-buttons a:hover a:visited {
+.search-buttons:hover {
   color: #212121;
-  box-shadow: #ECECEC;
+  box-shadow: #878383;
+}
+
+.search-button:visited {
+  color: #212121;
+  box-shadow: #878383; 
 }
 
 #footer {
@@ -95,4 +100,12 @@ a:visited {
 .sustainable {
   display: flex;
   justify-content: center; 
+}
+
+#footer-left {
+
+}
+
+#footer-right {
+
 }
