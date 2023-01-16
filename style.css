@@ -1,0 +1,167 @@
+body {
+  font-family: 'Arial';
+  background-color: #FFFFFF;
+  color: #3d3d3d;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #212121; 
+}
+
+#header {
+  color: #454545;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  font-size: small;
+}
+
+.header {
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.header a {
+  color: #212121 ;
+}
+
+.header a:hover, a:visited {
+  color: #212121;
+}
+
+#apps a:hover {
+  background-image: "img/apps-hover-menu.png" ;
+}
+
+#login {
+  width: 130px;
+  height: 35px;
+  background-color: #1a73e8;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin-top: 2px;
+  font-size: 15px;
+  border: none;
+}
+
+#login a {
+  color: white;
+  text-decoration: none;
+}
+
+#login:hover {
+  background-color: #2064cc;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+
+#searchbar {
+  margin-top: 30px;
+  width: 500px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E0E1E5;
+  border-radius: 40px;
+}
+
+#searchbar:hover {
+  box-shadow: 1px 2px 1px 1px #f2efeff2;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 180px;
+}
+
+.search-buttons {
+  background-color: #F7F7F7;
+  color: #212121;
+  font-size: medium;
+  width: 170px;
+  height: 40px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F7F7F7;
+  border-radius: 5px;
+  box-shadow: 0px 2px #F7F7F7;
+}
+
+.search-buttons:hover {
+  cursor: pointer;
+  border: 1px solid #eae2e2ec;
+}
+
+.sustainable {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  color: #454545;
+}
+
+#footer {
+  background-color: #F2F2F2;
+  color: #454545;
+}
+
+.france {
+  margin-left: 10px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  color: #454545;
+}
+
+#footer-content-left {
+  display: flex;
+  flex-direction: row;
+  color: #454545;
+}
+
+#footer-content-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  color: dimgrey;
+}
+
+.about, .ad, .company, .report, .infocustomer, .privacy, .conditions, .params { 
+  color: #454545;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.about a, .ad a, .company a, .report a, .infocustomer a, .privacy a, .conditions a, .params a {
+  color: #454545;
+}
+
+.howto {
+  color: #454545;
+  margin-right: 120px;
+  margin-bottom: 20px;
+}
+
+.howto a {
+  color: #454545;
+}
